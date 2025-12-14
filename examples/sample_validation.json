@@ -1,0 +1,24 @@
+{
+  "statistics": {
+    "evaluated_expectations": 10,
+    "successful_expectations": 7,
+    "unsuccessful_expectations": 3,
+    "success_percent": 70.0
+  },
+  "results": [
+    {
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": { "column": "order_id" }
+      },
+      "success": true
+    },
+    {
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": { "column": "amount", "min_value": 1, "max_value": 10000 }
+      },
+      "success": false
+    }
+  ]
+}
